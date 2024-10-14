@@ -5,5 +5,5 @@ function butotnClick(){
 let textbox = document.getElementById('textbox');
 let test = document.getElementById('test');
 
-let button1 = document.getElementById('button1');
-button1.addEventListener('click', butotnClick);
+let textbox_button = document.getElementById('textbox_button');
+textbox_button.addEventListener('click', butotnClick);
