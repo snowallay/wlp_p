@@ -50,6 +50,8 @@
         <script>
 function butotnClick(){
   test.innerText = textbox.value + 'に飛ぶ！';
+let newwin = window.open('htpps://snowallay.github.io/mimic_proxy/' + textbox.value);
+
 }
 
 let textbox = document.getElementById('textbox');
@@ -60,7 +62,7 @@ textbox_button.addEventListener('click', butotnClick);
 
 
 
-let newwin = window.open('htpps://snowallay.github.io/mimic_proxy/' + textbox);
+let newwin = window.open('htpps://snowallay.github.io/mimic_proxy/' + textbox.value);
 </script>
     
     </center>
