@@ -55,7 +55,6 @@ function butotnClick(){
 
     //見つかった場合
       var result3 = str1.substr( 8 );
-      let newwin = window.open("https://snowallay.github.io/mimic_proxy/+result3);
 
   }
   else {
@@ -65,14 +64,15 @@ function butotnClick(){
   if(result2 !== -1) {
 
     var result3 = str1.substr( 7 );
-    let newwin = window.open(result3);
-}
+
+  }
   else {
-    
-  //見つからなかった場合
-  let newwin = window.open(textbox.value));
+
+//見つからなかった場合
+  var result3 = textbox.value;
   }
   }
+  let newwin = window.open(result3);
   }
   
   let textbox = document.getElementById('textbox');
