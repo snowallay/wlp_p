@@ -1,2 +1,2 @@
 var substr = location.pathname
-console.log(substr)
+console.write(substr)
